@@ -107,6 +107,23 @@
     <Content Include="images\main-slider\RealEstate.jpg" />
     <Content Include="images\main-slider\Team.jpg" />
     <Content Include="images\parallax\LotusHeights.jpg" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\bxslider.js" />
+    <Content Include="js\googlemaps.js" />
+    <Content Include="js\jquery.fancybox.pack.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.mixitup.js" />
+    <Content Include="js\jquery.nav.js" />
+    <Content Include="js\jquery.scrollTo.js" />
+    <Content Include="js\masterslider\jquery.easing.min.js" />
+    <Content Include="js\masterslider\masterslider.js" />
+    <Content Include="js\masterslider\masterslider.min.js" />
+    <Content Include="js\owl.js" />
+    <Content Include="js\respond.js" />
+    <Content Include="js\revolution.min.js" />
+    <Content Include="js\script.js" />
+    <Content Include="js\validate.js" />
+    <Content Include="js\wow.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -134,6 +151,7 @@
     <Content Include="fonts\revicons90c6.eot" />
     <Content Include="fonts\revicons90c6.ttf" />
     <Content Include="fonts\revicons90c6.woff" />
+    <Content Include="js\masterslider\masterslider.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -337,9 +355,7 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="js\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

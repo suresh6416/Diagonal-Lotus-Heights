@@ -246,24 +246,24 @@
 	
 	
 	// Google Map Settings
-	if($('#map-location').length){
+	if ($('#map-location').length) {
+	    debugger;
 		var map;
 		 map = new GMaps({
 			el: '#map-location',
 			zoom: 14,
 			scrollwheel:false,
 			//Set Latitude and Longitude Here
-			lat: -37.817085,
-			lng: 144.955631
+			lat: 17.734840,
+			lng: 83.316192
 		  });
 		  
 		  //Add map Marker
 		  map.addMarker({
-			lat: -37.817085,
-			lng: 144.955631,
+			lat: 17.734840,
+			lng: 83.316192,
 			infoWindow: {
-			  content: '<p style="text-align:center;"><strong>Envato</strong><br>Melbourne VIC 3000, Australia</p>'
-			}
+			    content: '<p style="text-align:center;"><strong>DIAGONAL INFRA INDIA Pvt Ltd</strong> <br /> #53-23-3/3/2, Flat No.201,<br />J.S.R. Residency , Near Kinnera Theatre ,<br />Chaitanya Nagar, Madddilapalem,<br />Visakhapatnam-530013, INDIA</p>'}
 		 
 		});
 	}
