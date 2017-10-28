@@ -544,24 +544,27 @@
                 <div class="col-md-7 col-sm-12 col-xs-12 column">
                 	<h2>Contact Form</h2>
                     <!--Contact Form-->
-                    <div class="contact-form">
-                    	<form method="post" id="contact-form" action="sendemail.php">
-                        	
+                    <div class="column contact-form">
+                        <form action="mailto:info@diagonalinfra.com" method="post" enctype="text/plain">
                             <div class="row clearfix">
-                                <div class="col-md-6 col-sm-6 col-xs-12 form-group">
-                                    <input type="text" name="username" value="" placeholder="Username">
+                                <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+                                    <input type="text" name="Name" value="" placeholder="Name" required>
                                 </div>
-                                <div class="col-md-6 col-sm-6 col-xs-12 form-group">
-                                    <input type="email" name="email" value="" placeholder="Email">
+                                <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+                                    <input type="text" name="Phone" value="" placeholder="Phone" required>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+                                    <input type="email" name="Email" value="" placeholder="Email" required>
                                 </div>
                                 <div class="col-md-12 col-sm-12 col-xs-12 form-group">
-                                    <input type="text" name="subject" value="" placeholder="Subject">
+                                    <input type="text" name="Subject" value="" placeholder="Subject" required>
                                 </div>
                                 <div class="col-md-12 col-sm-12 col-xs-12 form-group">
-                                    <textarea name="message" placeholder="Message"></textarea>
+                                    <textarea name="Message" placeholder="Message" required></textarea>
                                 </div>
-                                <div class="col-md-12 col-sm-12 col-xs-12 form-group text-right">
-                                	<button type="submit" name="submit" class="theme-btn btn-style-one">Send</button>
+                                <div class="col-md-12 col-sm-12 col-xs-12 form-group text-center">
+                                    <button type="submit" class="theme-btn btn-style-one">Send</button>
+                                    <button type="reset" name="Reset" class="theme-btn">Reset</button>
                                 </div>
                             </div>
                         </form>
