@@ -95,6 +95,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="eBrouchers.html" />
     <Content Include="images\background\BitsHd.jpg" />
     <Content Include="images\background\hdcontactusbanner.jpg" />
     <Content Include="images\gallery\bits5.jpg" />
@@ -102,6 +103,9 @@
     <Content Include="images\gallery\bits4.jpg" />
     <Content Include="images\gallery\bits3.jpg" />
     <Content Include="images\gallery\bits2.jpg" />
+    <Content Include="images\gallery\ebrouchers\LotusBrochure1.JPG" />
+    <Content Include="images\gallery\ebrouchers\LotusBrochure2.JPG" />
+    <Content Include="images\gallery\LotusHeights.jpg" />
     <Content Include="images\main-slider\bg.jpg" />
     <Content Include="images\main-slider\Construction1.jpg" />
     <Content Include="images\main-slider\RealEstate.jpg" />
@@ -128,8 +132,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Projects-ContrucionsCompleted.html" />
-    <Content Include="Projects-RealestateOngoing.html" />
+    <Content Include="Projects\Constructions\Completed\bitsCollegeInfo.html" />
+    <Content Include="Projects\Realestate\Ongoing\lotusHeightsInfo.html" />
     <Content Include="scripts\Custom.js" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
     <Content Include="css\assets\arrows.psd" />
@@ -152,6 +156,8 @@
     <Content Include="fonts\revicons90c6.ttf" />
     <Content Include="fonts\revicons90c6.woff" />
     <Content Include="js\masterslider\masterslider.min.js.map" />
+    <Content Include="images\gallery\ebrouchers\Dia.Lotusheights.pdf" />
+    <Content Include="images\gallery\ebrouchers\Lotusheightbrochure.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -265,8 +271,8 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\revicons90c6.svg" />
-    <Content Include="gallery-2.html" />
-    <Content Include="gallery.html" />
+    <Content Include="gallery\gallery-2.html" />
+    <Content Include="gallery\gallery.html" />
     <Content Include="images\background\contact-bg.jpg" />
     <Content Include="images\background\page-title-bg-1.jpg" />
     <Content Include="images\background\testimonials-bg.jpg" />
@@ -346,7 +352,9 @@
     <Content Include="index.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="video-tour.html" />
+    <Content Include="gallery\video-tour.html" />
+    <Content Include="services.html" />
+    <Content Include="testimonials.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -355,7 +363,10 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Projects\Constructions\Ongoing\" />
+    <Folder Include="Projects\Realestate\Completed\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
