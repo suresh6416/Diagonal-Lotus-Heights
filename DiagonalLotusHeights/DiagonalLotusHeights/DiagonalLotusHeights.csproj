@@ -96,8 +96,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="eBrouchers.html" />
+    <Content Include="images\background\about-us-bg.jpg" />
     <Content Include="images\background\BitsHd.jpg" />
     <Content Include="images\background\hdcontactusbanner.jpg" />
+    <Content Include="images\background\Services.jpg" />
+    <Content Include="images\background\Testimonial.jpg" />
     <Content Include="images\gallery\bits5.jpg" />
     <Content Include="images\gallery\Bits1.jpg" />
     <Content Include="images\gallery\bits4.jpg" />
@@ -106,6 +109,7 @@
     <Content Include="images\gallery\ebrouchers\LotusBrochure1.JPG" />
     <Content Include="images\gallery\ebrouchers\LotusBrochure2.JPG" />
     <Content Include="images\gallery\LotusHeights.jpg" />
+    <Content Include="images\gallery\LotusHeights\LotusConstruction1.JPG" />
     <Content Include="images\main-slider\bg.jpg" />
     <Content Include="images\main-slider\Construction1.jpg" />
     <Content Include="images\main-slider\RealEstate.jpg" />
@@ -132,8 +136,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Projects\Constructions\Completed\bitsCollegeInfo.html" />
-    <Content Include="Projects\Realestate\Ongoing\lotusHeightsInfo.html" />
+    <Content Include="projects\constructions\completed\bitsCollegeInfo.html" />
+    <Content Include="projects\realestate\ongoing\lotusHeightsInfo.html" />
     <Content Include="scripts\Custom.js" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
     <Content Include="css\assets\arrows.psd" />
@@ -364,8 +368,9 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Projects\Constructions\Ongoing\" />
-    <Folder Include="Projects\Realestate\Completed\" />
+    <Folder Include="images\gallery\Bits\" />
+    <Folder Include="projects\constructions\ongoing\" />
+    <Folder Include="projects\realestate\completed\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
