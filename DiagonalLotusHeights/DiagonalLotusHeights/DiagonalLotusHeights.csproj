@@ -101,6 +101,7 @@
     <Content Include="images\background\BitsHd.jpg" />
     <Content Include="images\background\customer-testimonials.jpg" />
     <Content Include="images\background\hdcontactusbanner.jpg" />
+    <Content Include="images\background\LotusHeading.JPG" />
     <Content Include="images\background\Services.jpg" />
     <Content Include="images\background\Testimonial.jpg" />
     <Content Include="images\background\Testimonial.png" />
@@ -120,6 +121,7 @@
     <Content Include="images\gallery\Bits\BITSouter1.JPG" />
     <Content Include="images\gallery\ebrouchers\LotusBrochure1.JPG" />
     <Content Include="images\gallery\ebrouchers\LotusBrochure2.JPG" />
+    <Content Include="images\gallery\logo1.png" />
     <Content Include="images\gallery\LotusHeights.jpg" />
     <Content Include="images\gallery\LotusHeights\Lotus.JPG" />
     <Content Include="images\gallery\LotusHeights\LotusConstruction1.JPG" />
@@ -128,6 +130,7 @@
     <Content Include="images\gallery\LotusHeights\LotusImg.JPG" />
     <Content Include="images\gallery\LotusHeights\LotusInterior1.JPG" />
     <Content Include="images\gallery\LotusHeights\Lotusinterior2.JPG" />
+    <Content Include="images\gallery\LotusHeights\LotusLogo.JPG" />
     <Content Include="images\gallery\LotusHeights\lotusPlan.JPG" />
     <Content Include="images\main-slider\bg.jpg" />
     <Content Include="images\main-slider\Construction1.jpg" />
@@ -397,6 +400,7 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="contactUs\" />
     <Folder Include="projects\constructions\ongoing\" />
     <Folder Include="projects\realestate\completed\" />
   </ItemGroup>
