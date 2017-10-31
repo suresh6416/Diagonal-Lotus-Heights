@@ -247,7 +247,6 @@
 	
 	// Google Map Settings
 	if ($('#map-location').length) {
-	    debugger;
 		var map;
 		 map = new GMaps({
 			el: '#map-location',
