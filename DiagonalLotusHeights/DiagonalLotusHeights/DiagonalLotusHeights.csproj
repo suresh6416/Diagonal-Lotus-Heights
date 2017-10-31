@@ -96,6 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="eBrouchers.html" />
+    <Content Include="images\logo-234x150.png" />
     <Content Include="images\background\about-us-bg.jpg" />
     <Content Include="images\background\bitscomplete.JPG" />
     <Content Include="images\background\BitsHd.jpg" />
