@@ -61,6 +61,6 @@ F:\Projects\diagonalInfraNew\DiagonalLotusHeights\DiagonalLotusHeights\bin\Micro
 F:\Projects\diagonalInfraNew\DiagonalLotusHeights\DiagonalLotusHeights\bin\Microsoft.AI.WindowsServer.xml
 F:\Projects\diagonalInfraNew\DiagonalLotusHeights\DiagonalLotusHeights\bin\Microsoft.ApplicationInsights.xml
 F:\Projects\diagonalInfraNew\DiagonalLotusHeights\DiagonalLotusHeights\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-F:\Projects\diagonalInfraNew\DiagonalLotusHeights\DiagonalLotusHeights\obj\Debug\DiagonalLotusHeights.csprojResolveAssemblyReference.cache
 F:\Projects\diagonalInfraNew\DiagonalLotusHeights\DiagonalLotusHeights\obj\Debug\DiagonalLotusHeights.dll
 F:\Projects\diagonalInfraNew\DiagonalLotusHeights\DiagonalLotusHeights\obj\Debug\DiagonalLotusHeights.pdb
+F:\Projects\diagonalInfraNew\DiagonalLotusHeights\DiagonalLotusHeights\obj\Debug\DiagonalLotusHeights.csprojResolveAssemblyReference.cache

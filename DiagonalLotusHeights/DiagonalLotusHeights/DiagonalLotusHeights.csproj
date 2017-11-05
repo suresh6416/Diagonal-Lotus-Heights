@@ -96,6 +96,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="eBrouchers.html" />
+    <Content Include="gallery\gallery.html" />
+    <Content Include="images\background\aboutus2.jpg" />
+    <Content Include="images\gallery\Bits\new.jpg" />
+    <Content Include="images\gallery\LotusHeights\Lotus1.JPG" />
+    <Content Include="images\gallery\LotusHeights\LotusHeights1.jpg" />
+    <Content Include="images\gallery\LotusHeights\LotusImg1.JPG" />
     <Content Include="images\logo-234x150.png" />
     <Content Include="images\background\about-us-bg.jpg" />
     <Content Include="images\background\bitscomplete.JPG" />
@@ -123,7 +129,6 @@
     <Content Include="images\gallery\ebrouchers\LotusBrochure1.JPG" />
     <Content Include="images\gallery\ebrouchers\LotusBrochure2.JPG" />
     <Content Include="images\gallery\logo1.png" />
-    <Content Include="images\gallery\LotusHeights.jpg" />
     <Content Include="images\gallery\LotusHeights\Lotus.JPG" />
     <Content Include="images\gallery\LotusHeights\LotusConstruction1.JPG" />
     <Content Include="images\gallery\LotusHeights\LotusConstruction2.JPG" />
@@ -135,9 +140,21 @@
     <Content Include="images\gallery\LotusHeights\lotusPlan.JPG" />
     <Content Include="images\main-slider\bg.jpg" />
     <Content Include="images\main-slider\Construction1.jpg" />
+    <Content Include="images\main-slider\quality-engineered-structures-77.jpg" />
+    <Content Include="images\main-slider\RealEstate1.jpg" />
     <Content Include="images\main-slider\RealEstate.jpg" />
+    <Content Include="images\main-slider\structuresarch.jpg" />
     <Content Include="images\main-slider\Team.jpg" />
     <Content Include="images\parallax\LotusHeights.jpg" />
+    <Content Include="images\testimonials\b.p.naidu.jpg" />
+    <Content Include="images\testimonials\chandrasekhar.jpg" />
+    <Content Include="images\testimonials\chandu1.jpg" />
+    <Content Include="images\testimonials\harish.jpg" />
+    <Content Include="images\testimonials\joshi.jpg" />
+    <Content Include="images\testimonials\kankraju.jpg" />
+    <Content Include="images\testimonials\raju1.jpg" />
+    <Content Include="images\testimonials\sandeep.jpg" />
+    <Content Include="images\testimonials\satishponnana.jpg" />
     <Content Include="images\user1.png" />
     <Content Include="images\user.png" />
     <Content Include="js\bootstrap.min.js" />
@@ -162,7 +179,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="projects\constructions\completed\bitsCollegeInfo.html" />
-    <Content Include="projects\realestate\ongoing\lotusHeightsInfo.html" />
+    <Content Include="projects\constructions\ongoing\lotusHeightsInfo.html" />
     <Content Include="scripts\Custom.js" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
     <Content Include="css\assets\arrows.psd" />
@@ -187,6 +204,48 @@
     <Content Include="js\masterslider\masterslider.min.js.map" />
     <Content Include="images\gallery\ebrouchers\Dia.Lotusheights.pdf" />
     <Content Include="images\gallery\ebrouchers\Lotusheightbrochure.pdf" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP %2810%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP %2811%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP %2812%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP %2813%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP %2814%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP %2815%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP %2816%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP %2817%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP %2818%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP %2819%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP %2820%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP %283%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP %284%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP %285%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP %286%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP %287%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP %288%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP %289%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy %2810%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy %2811%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy %2812%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy %2813%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy %2814%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy %2815%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy %2816%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy %2817%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy %2818%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy %2819%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy %2820%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy %283%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy %284%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy %285%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy %286%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy %287%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy %288%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy %289%29.pubxml" />
+    <None Include="Properties\PublishProfiles\diagonalinfra - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\DiagonalInfraInd - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\DiagonalInfraInd - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -301,7 +360,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\revicons90c6.svg" />
     <Content Include="gallery\gallery-2.html" />
-    <Content Include="gallery\gallery.html" />
     <Content Include="images\background\contact-bg.jpg" />
     <Content Include="images\background\page-title-bg-1.jpg" />
     <Content Include="images\background\testimonials-bg.jpg" />
@@ -311,25 +369,6 @@
     <Content Include="images\fancybox\fancybox_overlay.png" />
     <Content Include="images\fancybox\fancybox_sprite%402x.png" />
     <Content Include="images\fancybox\fancybox_sprite.png" />
-    <Content Include="images\gallery\1.jpg" />
-    <Content Include="images\gallery\10.jpg" />
-    <Content Include="images\gallery\11.jpg" />
-    <Content Include="images\gallery\12.jpg" />
-    <Content Include="images\gallery\14.jpg" />
-    <Content Include="images\gallery\15.jpg" />
-    <Content Include="images\gallery\16.jpg" />
-    <Content Include="images\gallery\17.jpg" />
-    <Content Include="images\gallery\18.jpg" />
-    <Content Include="images\gallery\2.jpg" />
-    <Content Include="images\gallery\3.jpg" />
-    <Content Include="images\gallery\4.jpg" />
-    <Content Include="images\gallery\5.jpg" />
-    <Content Include="images\gallery\6.jpg" />
-    <Content Include="images\gallery\7.jpg" />
-    <Content Include="images\gallery\8.jpg" />
-    <Content Include="images\gallery\9.jpg" />
-    <Content Include="images\gallery\video-image-1.jpg" />
-    <Content Include="images\gallery\video-thumb-1.jpg" />
     <Content Include="images\icons\icon-caret-down.png" />
     <Content Include="images\icons\icon-next-1.png" />
     <Content Include="images\icons\icon-plus.png" />
@@ -342,16 +381,6 @@
     <Content Include="images\icons\testimonials-curve.png" />
     <Content Include="images\icons\title-separator-big.png" />
     <Content Include="images\icons\title-separator-small.png" />
-    <Content Include="images\logo-1.png" />
-    <Content Include="images\logo-2.png" />
-    <Content Include="images\logo-3.png" />
-    <Content Include="images\logo-4.png" />
-    <Content Include="images\main-slider\1.jpg" />
-    <Content Include="images\main-slider\2.jpg" />
-    <Content Include="images\main-slider\3.jpg" />
-    <Content Include="images\main-slider\4.jpg" />
-    <Content Include="images\parallax\image-1.jpg" />
-    <Content Include="images\parallax\image-2.jpg" />
     <Content Include="images\resource\author-thumb-2.jpg" />
     <Content Include="images\resource\author-thumb-3.jpg" />
     <Content Include="images\resource\author-thumb.jpg" />
@@ -402,8 +431,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="contactUs\" />
-    <Folder Include="projects\constructions\ongoing\" />
     <Folder Include="projects\realestate\completed\" />
+    <Folder Include="projects\realestate\ongoing\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
